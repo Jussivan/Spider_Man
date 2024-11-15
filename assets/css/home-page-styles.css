@@ -32,6 +32,7 @@ body::before {
 }
 
 .s-menu__link {
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -148,6 +149,9 @@ body::before {
 }
 
 /* Card hover animation */
+.s-card--hovered{
+  border: 0.5rem solid var(--primary-color);
+}
 
 .s-card--hovered .s-card__background {
   cursor: pointer;
@@ -160,7 +164,7 @@ body::before {
 }
 
 .s-card--hovered .s-card__title {
-  bottom: 50%;
+  display: none;
 }
 
 body#spider-man-01-hovered::before {

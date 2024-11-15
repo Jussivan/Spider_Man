@@ -1,5 +1,5 @@
 .gallery {
-    padding: 20px;
+    padding: 10px;
     padding-left: 0;
 }
 
@@ -17,6 +17,11 @@
 }
 
 .gallery ul li a img{
+    border:solid 6px white;
+    border-radius: 15px;
+}
+
+.gallery ul li iframe{
     border:solid 6px white;
     border-radius: 15px;
 }
